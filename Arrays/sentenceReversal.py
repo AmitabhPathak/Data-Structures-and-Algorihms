@@ -1,2 +1,2 @@
 def reverse(s):
-    return " ".join(s.split(" ")[::-1])
+    return " ".join(s.trim().split(" ")[::-1])
