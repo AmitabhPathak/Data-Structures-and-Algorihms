@@ -8,7 +8,10 @@ class Queue:
            l=self.items[0]
            self.items.remove(l)
            return l
+        else:
+            return "no items"
     def isEmpty(self):
         return self.items==[]
     def size(self):
         return len(self.items)
+
